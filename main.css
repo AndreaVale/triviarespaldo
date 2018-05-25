@@ -1,0 +1,96 @@
+html{
+box-sizing: border-box;
+font-family: Arial;
+  }
+*
+{
+  margin: 0;
+  }
+
+  header  {
+    box-sizing: border-box;
+height: 100px;
+    padding: 50px;
+    background-color:#EF435E;
+    }
+    #titulo1
+    {
+      font-size: 25px
+      font-color: #86B2A3;
+    }
+    #titulo2
+    {
+      font-size: 20px;
+      color: #86B2A3;
+    }
+
+/*seccion de menú*/
+nav{
+background-color: #F79F99;
+
+
+  }
+/*Tablas con cada parte del menú */
+  .table1{
+    border-collapse: collapse;
+    }
+ .table2 {
+        border: 1px solid black;
+          font-size: 20px;
+          color: #86B2A3;
+    }
+  .table3 {
+           border: 1px solid black;
+             font-size: 20px;
+             background-color: #86B2A3;
+             color: #EF435E;
+       }
+
+/*Cuerpo*/
+
+.cuerpo
+{
+background-color: #CED2AF
+
+}
+
+h1{
+margin: 0;
+padding: 30px;
+color:#EF435E;
+text-decoration:underline;
+}
+
+
+body{
+background-color: #CED2AF;
+  }
+
+/*body*/
+
+.table4{
+  box-sizing: border-box;
+  border-collapse: collapse;
+  margin: 5em 4em 3em 2em;
+}
+
+.table5 {
+  box-sizing: border-box;
+      border: 1px solid black;
+        font-size: 80px;
+}
+
+ #tableok{
+text-decoration: underline;
+margin: 5px 4px 3px 2px;
+ }
+#tablewrong{
+  text-decoration: underline;
+  margin: 5px 4px 3px 2px;
+}
+#tableFirstWrong{
+  margin: 10px 4px 3px 2px;
+}
+#tableSecondWrong{
+  margin: 5px 4px 3px 2px;
+}
