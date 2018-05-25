@@ -39,12 +39,12 @@ else {
 }
 if (thirdQuestion == ("500")) {
   console.log("verdadero", rightAnswer = rightAnswer+1);
-  document.getElementById("tableThRight").innerHTML = ("¿Cuánto es 1,000-500? Tú respondiste: " + thirdQuestion);
+  document.getElementById("tableThirdRight").innerHTML = ("¿Cuánto es 1,000-500? Tú respondiste: " + thirdQuestion);
 }
 else {
   thirdQuestion !=("500")
   console.log("falso", wrongAnswer = wrongAnswer+1);
-  document.getElementById("tableThirdWrong").innerHTML = ("¿Cuánto es 1,000-500? Tú respondiste:" + thirdQuestion);
+  document.getElementById("tableThirdWrong").innerHTML = ("¿Cuánto es 1,000-500? Tú respondiste: " + thirdQuestion);
 }
 alert("Vamos a ver tus resultados")
 document.getElementById("tableok").innerHTML = "¡¡¡Correctas!!!";
